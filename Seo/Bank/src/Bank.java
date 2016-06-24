@@ -1,12 +1,10 @@
 public class Bank {
-	public double InterestRate;
+	public double interestRate;
 	public Bank(){
-		System.out.println();
-		System.out.println("==============은행=============");
 	}
 	
 	public double getInterestRate() {
-		// TODO Auto-generated method stub
-		return InterestRate;
+		System.out.println("==============은행=============");	
+		return interestRate;
 	}
 }
